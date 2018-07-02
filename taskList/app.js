@@ -5,7 +5,7 @@ const filter = document.querySelector('#filter');
 const taskInput = document.querySelector('#task');
 
 const loadEventListeners = () => {
-    document.addEventListener('DOMContentLoaded', getTasks);
+    document.addEventListener('a', getTasks);
     form.addEventListener('submit', addTask);
     taskList.addEventListener('click', removeTask);
     clearBtn.addEventListener('click', clearTasks);
