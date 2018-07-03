@@ -49,3 +49,5 @@ EasyHttp.prototype.delete = function(url, callback) {
         }
     };
 };
+
+const http = new EasyHttp();
